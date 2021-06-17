@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Tailwind
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #ffffff!important;
+    background-color: #002147!important;
+    border-bottom-color: transparent!important;
+    cursor: default!important;
+    border-radius: 25px!important;
+}
+
+.nav-tabs>li>a:focus, .nav-tabs>li>a:hover {
+    border-radius: 25px!important;
+}
